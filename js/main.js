@@ -104,6 +104,8 @@
 
 				const axesHelper = new THREE.AxesHelper( 3 );
 				scene.add( axesHelper );
+
+				axesHelper.visible = true;
 				
 				renderer = new THREE.WebGLRenderer( { antialias: true } );
 				renderer.setPixelRatio( window.devicePixelRatio );
